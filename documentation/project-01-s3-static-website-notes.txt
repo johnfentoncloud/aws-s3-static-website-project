@@ -1,0 +1,77 @@
+PROJECT 01 — S3 STATIC WEBSITE HOSTING
+
+Project Goal
+Build and host a static website using Amazon S3.
+
+Deployment Methods
+1. AWS Console
+2. AWS CLI
+3. AWS CloudFormation
+
+Website Endpoints
+- Console Build:
+http://fenton4fitness-static-site-2026.s3-website-us-east-1.amazonaws.com/
+
+- CLI Build:
+http://f4f-cli-static-site-2026.s3-website-us-east-1.amazonaws.com/
+
+- CloudFormation Build:
+http://f4f-cloudformation-static-site-2026.s3-website-us-east-1.amazonaws.com/
+
+Project Files
+- index.html
+- error.html
+- bucket-policy.json
+- s3-static-website.yaml
+
+Core AWS Concepts Practiced
+- S3 Buckets
+- Static Website Hosting
+- Bucket Policies
+- Public Access Configuration
+- IAM Permissions
+- AWS CLI
+- CloudFormation Templates
+
+Project Workflow
+[x] Organize project folders
+[x] Create IAM project user
+[x] Create S3 bucket
+[x] Upload website files
+[x] Enable static website hosting
+[x] Configure bucket permissions
+[x] Add bucket policy
+[x] Test website endpoint
+[x] Document screenshots
+[x] Create CloudFormation template
+[x] Deploy CloudFormation stack
+
+Lessons Learned
+- S3 bucket names must be globally unique
+- Static website hosting must be enabled manually
+- Public access settings and bucket policies are separate
+- Bucket policies control object access
+- Block Public Access settings can override bucket policies
+- AWS CLI requires configured credentials
+- CLI commands must run from the correct working directory
+- JSON policies control AWS permissions
+- CloudFormation creates infrastructure from templates
+- index.html acts as the homepage
+- error.html displays when pages are missing
+- IAM users are safer than using the root account
+- MFA adds important account security
+
+Project Status
+Completed:
+- Console deployment
+- CLI deployment
+- CloudFormation deployment
+- Live website testing
+- Documentation and screenshots
+
+Next Improvements
+- Add custom domain
+- Add CloudFront CDN
+- Add HTTPS with ACM
+- Improve website styling
+- Automate deployment pipeline

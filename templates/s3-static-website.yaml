@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: S3 static website hosting project for Fenton4Fitness
+
+Resources:
+  F4FWebsiteBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: f4f-cloudformation-static-site-2026
+      WebsiteConfiguration:
+        IndexDocument: index.html
+        ErrorDocument: error.html
+Outputs:
+  WebsiteURL:
+    Description: URL for the static website
+    Value: !GetAtt F4FWebsiteBucket.WebsiteURL
