@@ -1,0 +1,18 @@
+# Local private files
+private-local-only/
+*.csv
+*.key
+*.pem
+*.env
+
+# AWS credentials/config
+.aws/
+credentials
+config
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
