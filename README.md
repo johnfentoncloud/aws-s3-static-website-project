@@ -136,3 +136,23 @@ Image links inside the README initially failed due to incorrect file paths and n
 ### File Naming Consistency
 Several files were accidentally saved with duplicate extensions such as `.json.json` and `.png.png`, reinforcing the importance of careful naming conventions and organization.
 
+---
+
+## Project Screenshots
+
+### Live Static Website
+
+![Live Website](screenshots/05-Final-Website-Test/23-live-s3-website-working.png)
+
+---
+
+### CloudFormation Outputs
+
+![CloudFormation Outputs](screenshots/07-CloudFormation-Build/24-cloudformation-outputs.png)
+
+---
+
+### Bucket Policy Configuration
+
+![Bucket Policy](screenshots/04-Bucket-Policy-and-Permissions/61-bucket-policy-added.png)
+
