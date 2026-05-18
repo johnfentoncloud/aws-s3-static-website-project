@@ -94,3 +94,45 @@ Project-01-S3-Static-Website
 ├── templates
 ├── website-files
 ├── bucket-policy.json
+```
+
+---
+
+## CloudFormation Features
+
+The CloudFormation template includes:
+
+- Automated S3 bucket creation
+- Static website hosting configuration
+- Website endpoint Outputs
+- Infrastructure as Code (IaC) deployment
+- Reusable YAML infrastructure template
+
+---
+
+## Lessons Learned
+
+- S3 bucket names must be globally unique
+- Public access settings and bucket policies are separate
+- IAM users are safer than using the root account
+- CloudFormation uses strict YAML formatting and indentation
+- Outputs can automatically return resource information after deployment
+- AWS CLI requires properly configured credentials
+- Infrastructure as Code improves repeatability and automation
+
+---
+
+## Challenges & Troubleshooting
+
+### YAML Formatting Errors
+CloudFormation templates are highly sensitive to indentation and formatting. Incorrect indentation caused validation errors when adding Outputs to the template.
+
+### Public Access Configuration
+S3 bucket policies alone were not enough to make the website public. Block Public Access settings also had to be configured correctly.
+
+### GitHub File Path Issues
+Image links inside the README initially failed due to incorrect file paths and naming inconsistencies.
+
+### File Naming Consistency
+Several files were accidentally saved with duplicate extensions such as `.json.json` and `.png.png`, reinforcing the importance of careful naming conventions and organization.
+
