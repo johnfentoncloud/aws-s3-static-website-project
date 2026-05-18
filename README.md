@@ -55,7 +55,7 @@ User → Amazon S3 Bucket → Static Website Hosting
 
 ## Architecture Diagram
 
-architecture-diagram.png
+![Architecture Diagram](architecture-diagram.png)
 ---
 
 ## Project Structure
