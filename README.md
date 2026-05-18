@@ -18,6 +18,19 @@ This project demonstrates how to host a static website using Amazon S3 through m
 
 ---
 
+## Skills Demonstrated
+
+- AWS S3 static website hosting
+- IAM security setup
+- AWS CLI usage
+- CloudFormation infrastructure as code
+- JSON bucket policy configuration
+- YAML template editing
+- GitHub documentation
+- Architecture diagramming
+
+---
+
 ## Technologies Used
 
 - Amazon S3
