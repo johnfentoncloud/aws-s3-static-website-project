@@ -148,11 +148,11 @@ Several files were accidentally saved with duplicate extensions such as `.json.j
 
 ### CloudFormation Outputs
 
-![CloudFormation Outputs](screenshots/07-CloudFormation-Build/24-cloudformation-outputs.png)
+![CloudFormation Outputs](screenshots/07-CloudFormation-Build/61-cloudformation-outputs.png)
 
 ---
 
 ### Bucket Policy Configuration
 
-![Bucket Policy](screenshots/04-Bucket-Policy-and-Permissions/61-bucket-policy-added.png)
+![Bucket Policy](screenshots/04-Bucket-Policy-and-Permission/22-bucket-policy-added.png)
 
