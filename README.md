@@ -39,6 +39,26 @@ This project demonstrates how to host a static website using Amazon S3 through m
 
 ---
 
+## Live Website
+
+CloudFormation Deployment:
+
+http://f4f-cloudformation-static-site-2026.s3-website-us-east-1.amazonaws.com
+
+---
+
+## Architecture
+
+User → Amazon S3 Bucket → Static Website Hosting
+
+---
+
+## Architecture Diagram
+
+![Architecture Diagram](screenshots/architecture-diagram.png)
+
+---
+
 ## Project Structure
 
 ```text
