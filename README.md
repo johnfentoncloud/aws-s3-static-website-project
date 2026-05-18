@@ -42,6 +42,19 @@ This project demonstrates how to host a static website using Amazon S3 through m
 
 ---
 
+## Deployment Methods
+
+### AWS Console
+The website was manually configured through the AWS Management Console to understand the full workflow and settings involved in static website hosting.
+
+### AWS CLI
+The project was also deployed using AWS CLI commands to practice command-line cloud management and credential configuration.
+
+### AWS CloudFormation
+Infrastructure was deployed using a reusable YAML CloudFormation template to practice Infrastructure as Code (IaC) concepts and automated provisioning.
+
+---
+
 ## Website Features
 
 - Static website hosting
